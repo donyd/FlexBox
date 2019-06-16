@@ -24,16 +24,21 @@ h2 {
     border: 1px black solid;
     width: 98%;
     margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 #row-box {
     background-color: aliceblue;
     height: 42%;
+    flex-direction: row;
 }
 
 #column-box {
     background-color: bisque;
     height: 42%;
+    flex-direction: column;
 }
 
 #row-box p, #column-box p {
