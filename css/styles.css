@@ -39,19 +39,18 @@ h2 {
 #row-box p, #column-box p {
     border: 2px dotted black;
     padding: 1%;
-    height: 20px;
-    width: 12px;
+    height: auto;
+    width: auto;
     margin: 0;
 }
 
 #row-box p:nth-child(2), 
-#row-box p:last-child {
-    background-color: white;
-}
+#row-box p:last-child,
 #column-box p:nth-child(2),
 #column-box p:last-child {
     background-color: white;
 }
+
 
 footer {
     text-align: center;
